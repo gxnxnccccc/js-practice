@@ -8,10 +8,21 @@
 <body>
     <h1>Guess the Number</h1>
     <p>
-        Your guess is <span id="guess"></span>.<br>
-        The NUMBER is <b><span id="random"></span></b>.<br>
-        <span id="word"></span>
+        Your first guess is <span id="1stguess"></span>.<br>
+        <span id="1stword"></span>
     </p>
+    <button onClick="second_guess()">2nd chance to guess</button>
+    <p>
+        Your second guess is <span id="2ndguess"></span>.<br>
+        <span id="2ndword"></span>
+    </p>
+    <button onClick="third_guess()">Last chance to guess</button>
+    <p>
+        Your third guess is <span id="3rdguess"></span>.<br>
+        The number is <span id="random"></span>.<br>
+        <span id="3rdword"></span>
+    </p>
+
     <script src="app.js"></script>
 </body>
 </html>
